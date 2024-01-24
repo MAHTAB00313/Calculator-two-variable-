@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+h2{
+    color: rgb(107, 41, 41);
+    font-size: 35px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+    height: 100vh;
+    background-color: rgb(220, 219, 219);
+    padding: 10px 10px;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.container{
+    width: 25%;
+    height: 70%;
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(146, 173, 129);
+    border-radius: 15px;
+    padding: 15px 20px;
+    gap: 10px;
+}
+
+.keyPad{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(151, 214, 133);
+    padding: 20px 10px;
+    gap: 10px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    background-color: rgb(62, 153, 154);
+    border-radius:8px;
+    height: 40px;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+}
+
+.opt{
+    background-color: rgb(190, 173, 102);
+    border-radius:8px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#eql{
+    background-color: rgb(193, 130, 130);
+    border-radius:8px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    border: 2px solid rgb(113, 161, 113);
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px 20px;
+    color: black;
+    font-size: 30px;
+    text-align: end;
+    color: rgb(64, 110, 79);
+}
+
+#clear{
+    background-color: rgb(174, 98, 98);
+    border-radius:8px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
